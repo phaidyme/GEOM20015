@@ -1,0 +1,311 @@
+____________________________________________________________ raw results
+setup_1:
+  front_left:
+    back_sight:
+      angle: 0° 0' 0"
+      distance: 96.8235
+    fore_sight:
+      angle: 142° 4' 14"
+      distance: 23.2661
+  front_right:
+    back_sight:
+      angle: 179° 59' 48"
+      distance: 96.8233
+    fore_sight:
+      angle: 322° 4' 13"
+      distance: 23.2662
+setup_2:
+  front_left:
+    back_sight:
+      angle: 0° 0' 1"
+      distance: 23.2685
+    fore_sight:
+      angle: 342° 25' 50"
+      distance: 23.7688
+  front_right:
+    back_sight:
+      angle: 179° 59' 46"
+      distance: 23.2684
+    fore_sight:
+      angle: 162° 25' 49"
+      distance: 23.7689
+setup_3:
+  front_left:
+    back_sight:
+      angle: 0° 0' 0"
+      distance: 23.7609
+    fore_sight:
+      angle: 206° 39' 12"
+      distance: 58.1806
+  front_right:
+    back_sight:
+      angle: 180° 0' 8"
+      distance: 23.7607
+    fore_sight:
+      angle: 26° 39' 6"
+      distance: 58.1804
+setup_4:
+  front_left:
+    back_sight:
+      angle: 0° 0' 3"
+      distance: 58.1855
+    fore_sight:
+      angle: 251° 46' 4"
+      distance: 26.6075
+  front_right:
+    back_sight:
+      angle: 180° 0' 3"
+      distance: 58.1857
+    fore_sight:
+      angle: 71° 46' 9"
+      distance: 26.6079
+setup_5:
+  front_left:
+    back_sight:
+      angle: 0° 0' 3"
+      distance: 26.6126
+    fore_sight:
+      angle: 163° 5' 30"
+      distance: 34.7903
+  front_right:
+    back_sight:
+      angle: 180° 0' 5"
+      distance: 26.6126
+    fore_sight:
+      angle: 343° 5' 36"
+      distance: 34.7901
+setup_6:
+  front_left:
+    back_sight:
+      angle: 0° 0' 0"
+      distance: 31.98
+    fore_sight:
+      angle: 332° 30' 0"
+      distance: 97.52
+  front_right:
+    back_sight:
+      angle: 180° 0' 0"
+      distance: 32.24
+    fore_sight:
+      angle: 152° 30' 0"
+      distance: 97.67
+
+note: setup_6 is entirely made up and is the most likely
+      culprit for the misclosure
+
+____________________________________________________________ reduced results
+setup_1:
+  angle: 217° 55' 40"
+  distance_back_sight: 96.8234
+  distance_fore_sight: 23.2662
+setup_2:
+  angle: 17° 34' 4"
+  distance_back_sight: 23.2685
+  distance_fore_sight: 23.7689
+setup_3:
+  angle: 153° 20' 55"
+  distance_back_sight: 23.7608
+  distance_fore_sight: 58.1805
+setup_4:
+  angle: 108° 13' 56"
+  distance_back_sight: 58.1856
+  distance_fore_sight: 26.6077
+setup_5:
+  angle: 196° 54' 31"
+  distance_back_sight: 26.6126
+  distance_fore_sight: 34.7902
+setup_6:
+  angle: 27° 30' 0"
+  distance_back_sight: 32.11
+  distance_fore_sight: 97.595
+
+note: setup_6 is entirely made up and is the most likely
+      culprit for the misclosure
+
+________________________________________ angular misclosure and adjustment
+ideal internal angle sum is (n-2)pi radians = 720 degrees
+measured internal angle sum is 721° 29' 6"
+acceptable angular misclosure is 12 root n = 29"
+measured angular misclosure is -1° -29' -6"
+
+adjustment per angle: 0° -14' -51" with an extra second for 0 random angles
+	double checking: 6x (0° -14' -51") + 0x (-1") = -1° -29' -6" + 0"
+setup_1 -> 217° 40' 49"
+setup_2 -> 17° 19' 13"
+setup_3 -> 153° 6' 4"
+setup_4 -> 107° 59' 5"
+setup_5 -> 196° 39' 40"
+setup_6 -> 27° 15' 9"
+
+____________________________________________________________ bearings
+provided control point coordinates: (5008 is CP4 and 5009 is CP1)
+'5005':
+- 5814955.281
+- 320590.269
+- 45.8295
+'5006':
+- 5815029.88
+- 320616.255
+- 46.698
+'5007':
+- 5815103.545
+- 320577.947
+- 46.4095
+'5008':
+- 5815107.456
+- 320497.89
+- 46.3945
+'5009':
+- 5815026.926
+- 320444.135
+- 46.278
+'5010':
+- 5814975.623
+- 320505.804
+- 45.081
+
+bearing from CP4 to CP1 is:
+                  320444.135 - 320497.89
+  180 + arctan ( ------------------------- )
+                 5815026.926 - 5815107.456
+= 180 + arctan(-53.75500000000466 / -80.53000000026077)
+= 213° 43' 25"
+
+subsequent bearings are previous bearing + 180 - internal angle
+- 176° 2' 36"
+- 338° 43' 23"
+- 5° 37' 19"
+- 77° 38' 14"
+- 60° 58' 34"
+
+____________________________________________________________ traversals
+averaged distances between pairs of points:
+- 23.2674
+- 23.7648
+- 58.1831
+- 26.6102
+- 33.4501
+- 97.2092
+
+^ should be nan according to provided coordinates
+
+CP1 is at (nan,nan)
+
+Between subsequent CPs, 
+ Easting = distance x sin(bearing)
+Northing = distance x cos(bearing)
+
+from CP1 to CP2:
+	 bearing = 176° 2' 36"
+	distance = 23.2674m
+	-> CP2 is 1.6055m East and 23.2119m South of CP1
+from CP2 to CP3:
+	 bearing = 338° 43' 23"
+	distance = 23.7648m
+	-> CP3 is 8.6237m West and 22.1449m North of CP2
+from CP3 to CP6:
+	 bearing = 5° 37' 19"
+	distance = 58.1831m
+	-> CP6 is 5.6999m East and 57.9032m North of CP3
+from CP6 to CP5:
+	 bearing = 77° 38' 14"
+	distance = 26.6102m
+	-> CP5 is 25.9932m East and 5.6973m North of CP6
+from CP5 to CP4:
+	 bearing = 60° 58' 34"
+	distance = 33.4501m
+	-> CP4 is 29.2494m East and 16.2291m North of CP5
+from CP4 to CP1:
+	 bearing = 213° 43' 25"
+	distance = 97.2092m
+	-> CP1 is 53.9693m West and 80.8514m South of CP4
+________________________________________ linear misclosure and adjustment
+
+ΔE = -0.04513421243881188
+ΔN = -2.0887481047082836
+Linear misclosure = sqrt( ΔE^2 + ΔN^2 )
+                  = sqrt(-0.04513421243881188^2 + -2.0887481047082836^2)
+                  = sqrt(0.002037097132471801 + 4.362868644922447)
+                  = sqrt(4.364905742054918)
+                  = 2.0892356837022765m
+accuracy = perimiter / linear misclosure
+         = 262.4848 / 2.0892356837022765
+         = 125.63675895811716
+minimum acceptable accuracy is 8000
+
+adjusted northings and eastings are:
+
+from CP1 to CP2:
+	adjustment ration = side length / perimeter
+	                  = 23.2674 / 262.4848
+	                  = 0.08864284712867182
+	Easting -= -0.04513421243881188 x 0.08864284712867182
+	        -= -0.0040008250934866
+	1.6054968289403422 -> 1.6094976540338288
+	Northing -= -2.0887481047082836 x 0.08864284712867182
+	         -= -0.1851525789359594
+	-23.211942673810444 -> -23.026790094874485
+
+from CP2 to CP3:
+	adjustment ration = side length / perimeter
+	                  = 23.7648 / 262.4848
+	                  = 0.09053781399913442
+	Easting -= -0.04513421243881188 x 0.09053781399913442
+	        -= -0.00408635293078257
+	-8.623682524353447 -> -8.619596171422664
+	Northing -= -2.0887481047082836 x 0.09053781399913442
+	         -= -0.18911068739512316
+	22.144927607900666 -> 22.334038295295787
+
+from CP3 to CP6:
+	adjustment ration = side length / perimeter
+	                  = 58.1831 / 262.4848
+	                  = 0.22166274009009285
+	Easting -= -0.04513421243881188 x 0.22166274009009285
+	        -= -0.010004573200995393
+	5.699853134678453 -> 5.709857707879449
+	Northing -= -2.0887481047082836 x 0.22166274009009285
+	         -= -0.4629976282476263
+	57.90323652312621 -> 58.36623415137384
+
+from CP6 to CP5:
+	adjustment ration = side length / perimeter
+	                  = 26.6102 / 262.4848
+	                  = 0.10137806074866049
+	Easting -= -0.04513421243881188 x 0.10137806074866049
+	        -= -0.004575618930464819
+	25.99315137575261 -> 25.997726994683074
+	Northing -= -2.0887481047082836 x 0.10137806074866049
+	         -= -0.21175323224776585
+	5.69726474698254 -> 5.909017979230306
+
+from CP5 to CP4:
+	adjustment ration = side length / perimeter
+	                  = 33.4501 / 262.4848
+	                  = 0.12743633155138887
+	Easting -= -0.04513421243881188 x 0.12743633155138887
+	        -= -0.005751738460663251
+	29.24935263994435 -> 29.255104378405015
+	Northing -= -2.0887481047082836 x 0.12743633155138887
+	         -= -0.26618239599893995
+	16.22912690671252 -> 16.49530930271146
+
+from CP4 to CP1:
+	adjustment ration = side length / perimeter
+	                  = 97.2092 / 262.4848
+	                  = 0.3703422064820515
+	Easting -= -0.04513421243881188 x 0.3703422064820515
+	        -= -0.016715103822419246
+	-53.96930566740112 -> -53.9525905635787
+	Northing -= -2.0887481047082836 x 0.3703422064820515
+	         -= -0.773551581882869
+	-80.85136121561978 -> -80.0778096337369
+
+____________________________________________________________ coordinates
+CP1 	 320444.135 	 5815026.926
+CP2 	 320445.7445 	 5815003.8992
+CP3 	 320437.1249 	 5815026.2332
+CP6 	 320442.8348 	 5815084.5995
+CP5 	 320468.8325 	 5815090.5085
+CP4 	 320498.0876 	 5815107.0038
+CP1 	 320444.135 	 5815026.926

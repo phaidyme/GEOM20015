@@ -1,0 +1,2229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LandXML xmlns="http://www.landxml.org/schema/LandXML-1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.landxml.org/schema/LandXML-1.2 http://www.landxml.org/schema/LandXML-1.2/LandXML-1.2.xsd" version="1.2" date="2022-03-30" time="23:50:40.19" readOnly="false" language="English">
+<Units>
+<Metric linearUnit="meter" areaUnit="squareMeter" volumeUnit="cubicMeter" angularUnit="decimal dd.mm.ss" latLongAngularUnit="decimal degrees" temperatureUnit="celsius" pressureUnit="milliBars"/>
+</Units>
+<CoordinateSystem name="GDA94_2020_55" horizontalDatum="Local" verticalDatum="Local" ellipsoidName="GRS1980" projectedCoordinateSystemName="UTM 55" fileLocation="">
+</CoordinateSystem>
+<Application name="Leica Captivate LandXML Export" manufacturer="Leica Geosystems AG" version="6.65" manufacturerURL="www.leica-geosystems.com">
+<Author company="Leica Geosystems AG" companyURL="www.leica-geosystems.com" timeStamp="2022-03-30T23:50:40.19"/>
+</Application>
+<CgPoints>
+<CgPoint name="5010" oID="5010" code="002" desc="Bench Mark" role="control point" timeStamp="2024-03-30T23:46:08.00">5814975.623000 320505.804000 45.081000</CgPoint>
+<CgPoint name="5009" oID="5009" code="002" desc="Bench Mark" role="control point" timeStamp="2024-03-30T23:45:08.00">5815026.926000 320444.135000 46.278000</CgPoint>
+<CgPoint name="5008" oID="5008" code="002" desc="Bench Mark" role="control point" timeStamp="2024-03-30T23:44:16.00">5815107.456000 320497.890000 46.394500</CgPoint>
+<CgPoint name="5007" oID="5007" code="002" desc="Bench Mark" role="control point" timeStamp="2024-03-30T23:43:18.00">5815103.545000 320577.947000 46.409500</CgPoint>
+<CgPoint name="5006" oID="5006" code="003" desc="Title Peg" role="control point" timeStamp="2024-03-30T23:41:04.00">5815029.880000 320616.255000 46.698000</CgPoint>
+<CgPoint name="5005" oID="5005" code="002" desc="Bench Mark" role="control point" timeStamp="2024-03-30T23:38:48.00">5814955.281000 320590.269000 45.829500</CgPoint>
+</CgPoints>
+<HexagonLandXML xmlns="http://xml.hexagon.com/schema/HeXML-1.8" xsi:schemaLocation="http://xml.hexagon.com/schema/HeXML-1.8 http://xml.hexagon.com/schema/HeXML-1.8.xsd" xmlns:landxml="http://www.landxml.org/schema/LandXML-1.2" averagingMode="Average" averagingMethod="Weighted" averagingPosLimit="0.050000" averagingHgtLimit="0.075000">
+<CoordinateSystem name="GDA94_2020_55" type="classic" residualDistributionKind="no distribution">
+<Ellipsoid name="GRS1980" SemiMajorAxis="6378137.000000" ReciprocFlattening="298.257222099999980"/>
+<DatumTransformation name="GDA94-GDA2020">
+<Helmert3DTransformation rotationX="-0.000003949000000" rotationY="-0.000003272000000" rotationZ="-0.000003289700000" rotationOriginalX="0.000000" rotationOriginalY="0.000000" rotationOriginalZ="0.000000" shiftdX="0.061550" shiftdY="-0.010870" shiftdZ="-0.040190" scale="0.999999990006000" heightKind="ellipsoidal" transformationModel="bursaWolf">
+</Helmert3DTransformation>
+</DatumTransformation>
+<Projection name="UTM 55">
+<UTMProjection hemisphere="south" zoneNumber="55"/>
+</Projection>
+<GeoidModel name="VIC2020" geodeticDatumKind="WGS84" coordinateSystemKind="grid"><landxml:DocFileRef name="VIC2020.gem" location="-"/>
+</GeoidModel>
+</CoordinateSystem>
+<Point uniqueID="5010" class="control" subclass="positionAndHeight">
+<Coordinates originalCoordSysKind="Grid" originalGeodeticDatumKind="Local" originalHeightKind="orthometric">
+<WGS84>
+<Cartesian x="-4131853.472279" y="2897311.671165" z="-3887517.065996"/>
+<Geodetic lat="-37.794975048331942" lon="144.961340827215110" hghtE="49.949594" hghthO="45.130213"/>
+</WGS84>
+<Local>
+<Cartesian x="-4131854.448205" y="2897311.716629" z="-3887515.857195"/>
+<Geodetic lat="-37.794961887277616" lon="144.961346766134230" hghtE="49.860881" hghthO="45.041500"/>
+<Grid e="320504.977100" n="5814976.529600" hghtE="49.860881" hghthO="45.041500"/>
+</Local>
+</Coordinates>
+<PointCode code="002" codeDesc="Bench Mark" codeGroup="Survey" codeLinework="none">
+</PointCode>
+<PointQuality Qxx="0.0000000000" Qxy="0.0000000000" Qxz="0.0000000000" Qyy="0.0000000000" Qyz="0.0000000000" Qzz="0.0000000000" MeanError="0.000000" CQ3D="0.000000" CQPos="0.000000" CQHeight="0.000000"/>
+</Point>
+<Point uniqueID="5009" class="control" subclass="positionAndHeight">
+<Coordinates originalCoordSysKind="Grid" originalGeodeticDatumKind="Local" originalHeightKind="orthometric">
+<WGS84>
+<Cartesian x="-4131845.926911" y="2897379.338257" z="-3887476.956259"/>
+<Geodetic lat="-37.794509095147987" lon="144.960662614002900" hghtE="51.186832" hghthO="46.366713"/>
+</WGS84>
+<Local>
+<Cartesian x="-4131846.902842" y="2897379.383714" z="-3887475.747447"/>
+<Geodetic lat="-37.794495934044306" lon="144.960668553090360" hghtE="51.098119" hghthO="46.278000"/>
+<Grid e="320444.128600" n="5815026.931500" hghtE="51.098119" hghthO="46.278000"/>
+</Local>
+</Coordinates>
+<PointCode code="002" codeDesc="Bench Mark" codeGroup="Survey" codeLinework="none">
+</PointCode>
+<PointQuality Qxx="0.0000000000" Qxy="0.0000000000" Qxz="0.0000000000" Qyy="0.0000000000" Qyz="0.0000000000" Qzz="0.0000000000" MeanError="0.000000" CQ3D="0.000000" CQPos="0.000000" CQHeight="0.000000"/>
+</Point>
+<Point uniqueID="5008" class="control" subclass="positionAndHeight">
+<Coordinates originalCoordSysKind="Grid" originalGeodeticDatumKind="Local" originalHeightKind="orthometric">
+<WGS84>
+<Cartesian x="-4131917.675476" y="2897361.857034" z="-3887414.344477"/>
+<Geodetic lat="-37.793794398140385" lon="144.961292807484630" hghtE="51.306892" hghthO="46.483214"/>
+</WGS84>
+<Local>
+<Cartesian x="-4131918.651394" y="2897361.902468" z="-3887413.135657"/>
+<Geodetic lat="-37.793781237075315" lon="144.961298746540280" hghtE="51.218178" hghthO="46.394500"/>
+<Grid e="320497.890700" n="5815107.449200" hghtE="51.218178" hghthO="46.394500"/>
+</Local>
+</Coordinates>
+<PointCode code="002" codeDesc="Bench Mark" codeGroup="Survey" codeLinework="none">
+</PointCode>
+<PointQuality Qxx="0.0000000000" Qxy="0.0000000000" Qxz="0.0000000000" Qyy="0.0000000000" Qyz="0.0000000000" Qzz="0.0000000000" MeanError="0.000000" CQ3D="0.000000" CQPos="0.000000" CQHeight="0.000000"/>
+</Point>
+<Point uniqueID="5007" class="control" subclass="positionAndHeight">
+<Coordinates originalCoordSysKind="Grid" originalGeodeticDatumKind="Local" originalHeightKind="orthometric">
+<WGS84>
+<Cartesian x="-4131960.760679" y="2897294.412741" z="-3887418.812412"/>
+<Geodetic lat="-37.793845225694682" lon="144.962200605635930" hghtE="51.323017" hghthO="46.498214"/>
+</WGS84>
+<Local>
+<Cartesian x="-4131961.736587" y="2897294.458170" z="-3887417.603598"/>
+<Geodetic lat="-37.793832064691969" lon="144.962206544528610" hghtE="51.234302" hghthO="46.409500"/>
+<Grid e="320577.951300" n="5815103.552500" hghtE="51.234302" hghthO="46.409500"/>
+</Local>
+</Coordinates>
+<PointCode code="002" codeDesc="Bench Mark" codeGroup="Survey" codeLinework="none">
+</PointCode>
+<PointQuality Qxx="0.0000000000" Qxy="0.0000000000" Qxz="0.0000000000" Qyy="0.0000000000" Qyz="0.0000000000" Qzz="0.0000000000" MeanError="0.000000" CQ3D="0.000000" CQPos="0.000000" CQHeight="0.000000"/>
+</Point>
+<Point uniqueID="5006" class="control" subclass="positionAndHeight">
+<Coordinates originalCoordSysKind="Grid" originalGeodeticDatumKind="Local" originalHeightKind="orthometric">
+<WGS84>
+<Cartesian x="-4131944.636213" y="2897238.287143" z="-3887477.853688"/>
+<Geodetic lat="-37.794516372909129" lon="144.962617247206990" hghtE="51.609635" hghthO="46.786714"/>
+</WGS84>
+<Local>
+<Cartesian x="-4131945.612121" y="2897238.332586" z="-3887476.644887"/>
+<Geodetic lat="-37.794503211939038" lon="144.962623185954560" hghtE="51.520921" hghthO="46.698000"/>
+<Grid e="320616.262900" n="5815029.878000" hghtE="51.520921" hghthO="46.698000"/>
+</Local>
+</Coordinates>
+<PointCode code="003" codeDesc="Title Peg" codeGroup="Survey" codeLinework="none">
+</PointCode>
+<PointQuality Qxx="0.0000000000" Qxy="0.0000000000" Qxz="0.0000000000" Qyy="0.0000000000" Qyz="0.0000000000" Qzz="0.0000000000" MeanError="0.000000" CQ3D="0.000000" CQPos="0.000000" CQHeight="0.000000"/>
+</Point>
+<Point uniqueID="5005" class="control" subclass="positionAndHeight">
+<Coordinates originalCoordSysKind="Grid" originalGeodeticDatumKind="Local" originalHeightKind="orthometric">
+<WGS84>
+<Cartesian x="-4131891.084537" y="2897234.453243" z="-3887535.807382"/>
+<Geodetic lat="-37.795183217607168" lon="144.962303822360700" hghtE="50.738213" hghthO="45.918213"/>
+</WGS84>
+<Local>
+<Cartesian x="-4131892.060454" y="2897234.498706" z="-3887534.598590"/>
+<Geodetic lat="-37.795170056619867" lon="144.962309761090210" hghtE="50.649500" hghthO="45.829500"/>
+<Grid e="320590.277500" n="5814955.279300" hghtE="50.649500" hghthO="45.829500"/>
+</Local>
+</Coordinates>
+<PointCode code="002" codeDesc="Bench Mark" codeGroup="Survey" codeLinework="none">
+</PointCode>
+<PointQuality Qxx="0.0000000000" Qxy="0.0000000000" Qxz="0.0000000000" Qyy="0.0000000000" Qyz="0.0000000000" Qzz="0.0000000000" MeanError="0.000000" CQ3D="0.000000" CQPos="0.000000" CQHeight="0.000000"/>
+</Point>
+<Codelist codelistName="CAPTIVATE Num">
+  <CodeGroup codeGroupName="Survey" activatedOnInstrument="true">
+    <Code codeName="001" codeDesc="Permanent Survey" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="002" codeDesc="Bench Mark" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="003" codeDesc="Title Peg" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="005" codeDesc="Survey Mark" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="006" codeDesc="Photo Control Pt" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="008" codeDesc="Trig Station" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="013" codeDesc="RM Rod" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="014" codeDesc="RM Pipe" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="015" codeDesc="RM RM2" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="016" codeDesc="Dumpy" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="017" codeDesc="Nail" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="018" codeDesc="Spike" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="019" codeDesc="Etch" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="004" codeDesc="Instrument Stn" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+        </PointCode>
+    </Code>
+  </CodeGroup>
+  <CodeGroup codeGroupName="structure" activatedOnInstrument="true">
+    <Code codeName="920" codeDesc="Brick wall" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="NOTES" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="921" codeDesc="Concrete wall" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x696969" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="NOTES" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="922" codeDesc="Steel wall" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xBEBEBE" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="NOTES" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="923" codeDesc="Glass wall" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFFBF00" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="NOTES" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="924" codeDesc="Rendered wall" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="NOTES" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="925" codeDesc="Timber wall" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="NOTES" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="926" codeDesc="Sign" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="NOTES" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="927" codeDesc="Roof" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="NOTES" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="928" codeDesc="Roof Ridge" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="NOTES" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="929" codeDesc="Underside Eave" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="NOTES" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="930" codeDesc="Fascia" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="NOTES" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="931" codeDesc="Gutter Top" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="NOTES" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="932" codeDesc="Gutter Bottom" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="NOTES" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="933" codeDesc="Down pipe" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="NOTES" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="934" codeDesc="Aircon Vent" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="NOTES" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="935" codeDesc="Door Opening" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="NOTES" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="936" codeDesc="Window Opening" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="NOTES" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="937" codeDesc="Window Sill" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="NOTES" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="938" codeDesc="Window Head" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="NOTES" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="939" codeDesc="Stair" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="NOTES" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="940" codeDesc="Ramp" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="NOTES" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="941" codeDesc="Hand Rail" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="NOTES" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="942" codeDesc="Column Steel Top" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="NOTES" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="943" codeDesc="Column Steel Bot" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="NOTES" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="945" codeDesc="Column Conc bot" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="NOTES" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="944" codeDesc="Colume Conc Top" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="NOTES" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="946" codeDesc="Underside Roof" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="NOTES" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="947" codeDesc="Soffit Conc" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="NOTES" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="948" codeDesc="C/L Truss" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="NOTES" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="949" codeDesc="Beam Underside" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="NOTES" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="950" codeDesc="Beam Top" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="NOTES" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="951" codeDesc="Beam Side" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="NOTES" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="952" codeDesc="Ceiling" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="NOTES" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+  </CodeGroup>
+  <CodeGroup codeGroupName="Relief" activatedOnInstrument="true">
+    <Code codeName="101" codeDesc="Contour Std" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="102" codeDesc="Top of Bank" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x0000FF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="103" codeDesc="Toe of Bank" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x007FFF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="104" codeDesc="Existing Surface" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="107" codeDesc="Floor Level" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="110" codeDesc="Breakline" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x0000FF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+  </CodeGroup>
+  <CodeGroup codeGroupName="Vegetation" activatedOnInstrument="true">
+    <Code codeName="201" codeDesc="Tree" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Spread" attributeType="Mandatory" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+          <CodeAttributes attributeName="Trunk" attributeType="Mandatory" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+          <CodeAttributes attributeName="species" attributeType="Normal" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="gum"/>
+                <textList textListValue="pine"/>
+                <textList textListValue="fruit"/>
+                <textList textListValue="oak"/>
+                <textList textListValue="ash"/>
+                <textList textListValue="palm"/>
+                <textList textListValue="dead"/>
+                <textList textListValue="deciduous"/>
+                <textList textListValue="wattle"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="202" codeDesc="Plantation" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x00FF00" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="203" codeDesc="Vegetation" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x00FF00" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="204" codeDesc="Single Shrub" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="205" codeDesc="Garden Bed" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x00FF00" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="206" codeDesc="Planter Box" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x00FF00" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+  </CodeGroup>
+  <CodeGroup codeGroupName="Drainage" activatedOnInstrument="true">
+    <Code codeName="301" codeDesc="Drainage" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFF7F00" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="302" codeDesc="Water Course" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFF7F00" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="303" codeDesc="Pond/lake" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFF7F00" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="305" codeDesc="Box Culvert" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x828282" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="306" codeDesc="UG Drainage" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFF0000" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="307" codeDesc="Wing Wall Left" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x0000FF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="308" codeDesc="Side Entry Pit" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFF3F00" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="309" codeDesc="Grated Pit" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFF3F00" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="310" codeDesc="Junction Pit" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFF3F00" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="304" codeDesc="Concrete Pipe" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x696969" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="311" codeDesc="Other Drain.Pit" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFF3F00" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="312" codeDesc="Uncl. Drainage" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFF3F00" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="315" codeDesc="Swamp" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFF7F00" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="316" codeDesc="Wing Wall Right" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x00FF3F" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="318" codeDesc="Endwall" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x828282" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="317" codeDesc="Obvert Pipe" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFF3F00" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="320" codeDesc="Rock Beaching" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x316BFF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="321" codeDesc="Invert Pipe/Pit" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFF3F00" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="322" codeDesc="Property Outlet" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFF3F00" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="323" codeDesc="Invert of Drain" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFF3F00" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+  </CodeGroup>
+  <CodeGroup codeGroupName="Road Location" activatedOnInstrument="true">
+    <Code codeName="401" codeDesc="C/L Bitumen" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x414141" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="402" codeDesc="Spot on Bitumen" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x414141" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="403" codeDesc="Edge of Bitumen" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x414141" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="404" codeDesc="C/L Spot Format" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="405" codeDesc="Edge  Formation" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x414141" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="406" codeDesc="Lip of Kerb" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x414141" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="407" codeDesc="Invert of Kerb" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x414141" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="408" codeDesc="Back of Kerb" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x414141" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="409" codeDesc="Top of Kerb" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x414141" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="410" codeDesc="Path" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x414141" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="411" codeDesc="Driveway" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x414141" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="412" codeDesc="Track" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x414141" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="413" codeDesc="Uncl Road Locn" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x414141" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="414" codeDesc="Detector" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x414141" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="415" codeDesc="Lane Lines Dash" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x414141" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="417" codeDesc="Linemarking" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x414141" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="418" codeDesc="Lane Lines Solid" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x414141" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="419" codeDesc="Concrete Edge" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x414141" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="420" codeDesc="Traffic Arrow" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x414141" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="421" codeDesc="Traffic Island" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x414141" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="422" codeDesc="Bluestone Edge" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x414141" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+  </CodeGroup>
+  <CodeGroup codeGroupName="Road Furniture" activatedOnInstrument="true">
+    <Code codeName="501" codeDesc="Guard Rail" codeType="Point" quickCodeValue="51">
+        <PointCode lineStyle="Solid" lineColor="0x00BFFF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="502" codeDesc="Kilometre Marker" codeType="Point" quickCodeValue="52">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="503" codeDesc="Road Sign" codeType="Point" quickCodeValue="53">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="504" codeDesc="Letter Box" codeType="Point" quickCodeValue="54">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="505" codeDesc="Traffic Sign Pol" codeType="Point" quickCodeValue="55">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="506" codeDesc="Traffic Sign Box" codeType="Point" quickCodeValue="56">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="507" codeDesc="Traffic Sign Pit" codeType="Point" quickCodeValue="57">
+        <PointCode lineStyle="Solid" lineColor="0x007FFF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="508" codeDesc="Emergency Phone" codeType="Point" quickCodeValue="58">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="509" codeDesc="Uncl. Road Furn" codeType="Point" quickCodeValue="59">
+        <PointCode lineStyle="Solid" lineColor="0x007FFF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="510" codeDesc="Monument" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="511" codeDesc="Joint Use Pole" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="513" codeDesc="Detector Pit" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x007FFF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="514" codeDesc="Camera Flash" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="515" codeDesc="Camera Pole" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="516" codeDesc="Side Mount Pole" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="517" codeDesc="Centre Mount Pol" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="518" codeDesc="Multi Mount Pole" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="521" codeDesc="Bollard" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="522" codeDesc="Parking Meter" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="523" codeDesc="Bin" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="524" codeDesc="Bench" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+  </CodeGroup>
+  <CodeGroup codeGroupName="Building/Struct" activatedOnInstrument="true">
+    <Code codeName="601" codeDesc="House" codeType="Point" quickCodeValue="61">
+        <PointCode lineStyle="Solid" lineColor="0x003FFF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="602" codeDesc="Shed" codeType="Point" quickCodeValue="62">
+        <PointCode lineStyle="Solid" lineColor="0x003FFF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="603" codeDesc="Building" codeType="Point" quickCodeValue="63">
+        <PointCode lineStyle="Solid" lineColor="0x003FFF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="604" codeDesc="Verandah" codeType="Point" quickCodeValue="64">
+        <PointCode lineStyle="Solid" lineColor="0x003FFF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="605" codeDesc="Steps" codeType="Point" quickCodeValue="65">
+        <PointCode lineStyle="Solid" lineColor="0x003FFF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="607" codeDesc="Footing" codeType="Point" quickCodeValue="68">
+        <PointCode lineStyle="Solid" lineColor="0x003FFF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="610" codeDesc="Uncl. Structure" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x007FFF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="609" codeDesc="Retaining Wall" codeType="Point" quickCodeValue="69">
+        <PointCode lineStyle="Solid" lineColor="0x007FFF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="611" codeDesc="Swimming Pool" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFF7F00" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="612" codeDesc="Stockpile" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFF00FF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="614" codeDesc="Windmill" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFF0000" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="613" codeDesc="Bore/Well" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFF0000" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="615" codeDesc="Quarry/Pit" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFF0000" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="616" codeDesc="Sports Arena" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFF0000" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="617" codeDesc="Wall" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFF0000" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="618" codeDesc="Tower/Chimney" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x0000FF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="619" codeDesc="Ret. Wall Crib" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x0000FF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="621" codeDesc="Ret. Wall Conc." codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x0000FF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="620" codeDesc="Ret. Wall Rock" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x0000FF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="622" codeDesc="Ret. Wall Timber" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x0000FF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="623" codeDesc="Garage/Service S" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x0000FF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="624" codeDesc="Petrol Bowser" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFFFF00" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="625" codeDesc="Fuel Tank Above" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFFFF00" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="626" codeDesc="Fuel Tank U/G" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFFFF00" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="627" codeDesc="Petrol Valve" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFFFF00" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="628" codeDesc="Canopy" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFFFF00" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="630" codeDesc="Ramp" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x00FF00" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="629" codeDesc="Flag Pole" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x00FF00" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="631" codeDesc="Clothes Line" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x00FF00" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+  </CodeGroup>
+  <CodeGroup codeGroupName="Bridges" activatedOnInstrument="true">
+    <Code codeName="666" codeDesc="Bridge unclass" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFF00FF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="665" codeDesc="Edge culvert" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFF00FF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="664" codeDesc="Edge pedestal" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFF00FF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="663" codeDesc="Edge expan joint" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFF00FF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="662" codeDesc="Edge retain wall" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFF00FF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="661" codeDesc="Edge rail/endpos" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFF00FF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="660" codeDesc="Edge slabs/beams" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFF00FF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="659" codeDesc="Edge abut/ pier" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFF00FF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="658" codeDesc="Edge pile" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFF00FF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="657" codeDesc="Edge culv /slab" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFF00FF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="656" codeDesc="CL Diaphragm" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFF00FF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="655" codeDesc="CL Slab/Beam" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFF00FF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="654" codeDesc="CL Abut/ Pier" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFF00FF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="652" codeDesc="CL Bridge/Culver" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFF00FF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="653" codeDesc="CL Pile Foundati" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFF00FF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="651" codeDesc="Bridge deck/slab" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFF00FF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+  </CodeGroup>
+  <CodeGroup codeGroupName="Electricity" activatedOnInstrument="true">
+    <Code codeName="710" codeDesc="Elec. enclosure" codeType="Point" quickCodeValue="71">
+        <PointCode lineStyle="Solid" lineColor="0x007FFF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="711" codeDesc="Light Pole" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="712" codeDesc="Electric Pole" codeType="Point" quickCodeValue="72">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="713" codeDesc="Light and Pole" codeType="Point" quickCodeValue="73">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="715" codeDesc="Uncl. Elec." codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x007FFF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="714" codeDesc="Pylon" codeType="Point" quickCodeValue="74">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="716" codeDesc="Elec. Pit" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x007FFF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="717" codeDesc="O&apos;head Elec.line" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x007FFF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="718" codeDesc="U/G Elec.line" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x007FFF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="719" codeDesc="Elec. Marker" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+  </CodeGroup>
+  <CodeGroup codeGroupName="Telecom" activatedOnInstrument="true">
+    <Code codeName="721" codeDesc="Telecom Pit" codeType="Point" quickCodeValue="75">
+        <PointCode lineStyle="Solid" lineColor="0xFF0000" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="722" codeDesc="Telecom Pillar" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFF0000" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="723" codeDesc="Tele. Marker" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="724" codeDesc="Tele. Pole" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="725" codeDesc="Phone Box" codeType="Point" quickCodeValue="76">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="726" codeDesc="Uncl.Tele." codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFF0000" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="727" codeDesc="O&apos;head Tele.line" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFF0000" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="728" codeDesc="U/G Tele.lines" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFF0000" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+  </CodeGroup>
+  <CodeGroup codeGroupName="Gas" activatedOnInstrument="true">
+    <Code codeName="731" codeDesc="Gas Valve" codeType="Point" quickCodeValue="77">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="732" codeDesc="Gas Marker Post" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="733" codeDesc="Uncl. Gas" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x00BFFF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="734" codeDesc="U/G Gas" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x00BFFF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="735" codeDesc="Gas Pipe" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x00BFFF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="736" codeDesc="Gas Meter" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="737" codeDesc="Gas Enclosure" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x00BFFF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+  </CodeGroup>
+  <CodeGroup codeGroupName="Sewer" activatedOnInstrument="true">
+    <Code codeName="741" codeDesc="Sewerage Pit" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFF007F" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="742" codeDesc="Sewerage Unclass" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFF007F" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="743" codeDesc="U/G Sewerage" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFF007F" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="744" codeDesc="Sewerage Vent" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFF007F" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="745" codeDesc="Sewer. Inspect." codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="746" codeDesc="Sewer Bound.Trap" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="749" codeDesc="Sewer. Manhole" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+  </CodeGroup>
+  <CodeGroup codeGroupName="Water" activatedOnInstrument="true">
+    <Code codeName="750" codeDesc="Water Pipe" codeType="Point" quickCodeValue="78">
+        <PointCode lineStyle="Solid" lineColor="0xFFBF00" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="751" codeDesc="Stop Valve" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="752" codeDesc="Sprinkler" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="753" codeDesc="Fire Hydrant" codeType="Point" quickCodeValue="79">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="754" codeDesc="Water Meter" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="755" codeDesc="Uncl. Water" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFFBF00" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="756" codeDesc="U/G Water" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFFBF00" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="757" codeDesc="Water Marker" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="758" codeDesc="Tap" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="759" codeDesc="Electrolysis Pit" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFFBF00" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="760" codeDesc="Fire Hose Box" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFFBF00" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+  </CodeGroup>
+  <CodeGroup codeGroupName="Unclas Utilities" activatedOnInstrument="true">
+    <Code codeName="761" codeDesc="Stay for Pole" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFF00BF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="762" codeDesc="Unclassified Pit" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFF00BF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="763" codeDesc="Uncl. Pole" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="764" codeDesc="Uncl. Utility" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFF00BF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+  </CodeGroup>
+  <CodeGroup codeGroupName="Railway/Tram" activatedOnInstrument="true">
+    <Code codeName="801" codeDesc="Railway track" codeType="Point" quickCodeValue="81">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="802" codeDesc="Rail Boom Gate" codeType="Point" quickCodeValue="82">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="803" codeDesc="Rail signal pole" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="804" codeDesc="Rail. signal box" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="805" codeDesc="Rail. Stanch. R." codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="806" codeDesc="Uncl. Railway" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="807" codeDesc="Tram Pole" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="25" codeLinework="none">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="808" codeDesc="Uncl. Tramways" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="809" codeDesc="Tram Line" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="810" codeDesc="Bus/Tram Shelter" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="811" codeDesc="Rail. Stanch. L." codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="812" codeDesc="Tramways Pit" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="820" codeDesc="CATENARY" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Attribute 1" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="821" codeDesc="CONTACT" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Attribute 1" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="822" codeDesc="ARM" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Attribute 1" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="819" codeDesc="INSRAILJNT" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Attribute 1" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="818" codeDesc="GREASE_DRUM" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Attribute 1" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="817" codeDesc="CIRC_PLATE" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Attribute 1" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="816" codeDesc="TRUNKING" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Attribute 1" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="815" codeDesc="TRAIN_STOP" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Attribute 1" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="814" codeDesc="COPING_EDGE" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Attribute 1" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="813" codeDesc="S&amp;C_POST" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Attribute 1" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="823" codeDesc="POINTS_MOTOR" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Attribute 1" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="825" codeDesc="LADDER" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="STRING" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+  </CodeGroup>
+  <CodeGroup codeGroupName="Boundaries" activatedOnInstrument="true">
+    <Code codeName="901" codeDesc="Boundary Line" codeType="Point" quickCodeValue="91">
+        <PointCode lineStyle="Solid" lineColor="0xFF00BF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="902" codeDesc="Boundary Int." codeType="Point" quickCodeValue="92">
+        <PointCode lineStyle="Solid" lineColor="0xFF00BF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="903" codeDesc="Fence Line" codeType="Point" quickCodeValue="93">
+        <PointCode lineStyle="Solid" lineColor="0xFF00BF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="904" codeDesc="Gate" codeType="Point" quickCodeValue="94">
+        <PointCode lineStyle="Solid" lineColor="0xFF00BF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="905" codeDesc="Left Boundary" codeType="Point" quickCodeValue="95">
+        <PointCode lineStyle="Solid" lineColor="0xFF00BF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="906" codeDesc="Right Boundary" codeType="Point" quickCodeValue="96">
+        <PointCode lineStyle="Solid" lineColor="0xFF00BF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="908" codeDesc="Title Bdy. Allot" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFF00BF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="907" codeDesc="Title Bdy. Road" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFF00BF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="909" codeDesc="Title Bdy. Res." codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFF00BF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="910" codeDesc="Cell Boundary" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0xFF00BF" lineWidth="25" codeLinework="open line">
+          <CodeAttributes attributeName="Notes" attributeType="Normal" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+  </CodeGroup>
+  <CodeGroup codeGroupName="OP Codes" activatedOnInstrument="true">
+    <Code codeName="16" codeDesc="Addnl. Desc" codeType="FreeCode">
+        <FreeCode>
+          <CodeAttributes attributeName="String" attributeType="Mandatory" valueType="Text" valueRegion="None">
+            <text>
+            </text>
+          </CodeAttributes>
+        </FreeCode>
+    </Code>
+    <Code codeName="14" codeDesc="3 Point Arc" codeType="FreeCode">
+        <FreeCode>
+        </FreeCode>
+    </Code>
+    <Code codeName="19" codeDesc="Circle" codeType="FreeCode">
+        <FreeCode>
+          <CodeAttributes attributeName="Radius (mm)" attributeType="Mandatory" valueType="Integer" valueRegion="None">
+            <integer>
+            </integer>
+          </CodeAttributes>
+        </FreeCode>
+    </Code>
+    <Code codeName="20" codeDesc="Close String" codeType="FreeCode">
+        <FreeCode>
+        </FreeCode>
+    </Code>
+    <Code codeName="21" codeDesc="Join Last Pt Str" codeType="FreeCode">
+        <FreeCode>
+          <CodeAttributes attributeName="EntStrStr" attributeType="Mandatory" valueType="Integer" valueRegion="None">
+            <integer>
+            </integer>
+          </CodeAttributes>
+        </FreeCode>
+    </Code>
+    <Code codeName="22" codeDesc="Join 1st to Last" codeType="FreeCode">
+        <FreeCode>
+          <CodeAttributes attributeName="EntStrStr" attributeType="Mandatory" valueType="Integer" valueRegion="None">
+            <integer>
+            </integer>
+          </CodeAttributes>
+        </FreeCode>
+    </Code>
+    <Code codeName="23" codeDesc="Join 1st to 1st" codeType="FreeCode">
+        <FreeCode>
+          <CodeAttributes attributeName="EntStrStr" attributeType="Mandatory" valueType="Integer" valueRegion="None">
+            <integer>
+            </integer>
+          </CodeAttributes>
+        </FreeCode>
+    </Code>
+    <Code codeName="30" codeDesc="Remove Ht" codeType="FreeCode">
+        <FreeCode>
+        </FreeCode>
+    </Code>
+    <Code codeName="10" codeDesc="Make Station" codeType="FreeCode">
+        <FreeCode>
+          <CodeAttributes attributeName="Station No." attributeType="Mandatory" valueType="Integer" valueRegion="None">
+            <integer>
+            </integer>
+          </CodeAttributes>
+        </FreeCode>
+    </Code>
+    <Code codeName="09" codeDesc="Check Station" codeType="FreeCode">
+        <FreeCode>
+          <CodeAttributes attributeName="Station No." attributeType="Mandatory" valueType="Integer" valueRegion="None">
+            <integer>
+            </integer>
+          </CodeAttributes>
+        </FreeCode>
+    </Code>
+  </CodeGroup>
+  <CodeGroup codeGroupName="Default" activatedOnInstrument="true">
+  </CodeGroup>
+</Codelist>
+</HexagonLandXML>
+</LandXML>
+
