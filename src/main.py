@@ -55,9 +55,9 @@ for s in range(n):
 # make front-left backsight negative if it's like 359 or something
 for s in range(n):
     if results[s]["front-left"]["backsight"]["angle"] > Angle(180):
-        results[s]["front-left"]["backsight"]["angle"] = results[s]["front-left"][
-            "backsight"
-        ]["angle"] - Angle(360)
+        results[s]["front-left"]["backsight"]["angle"] = (
+            Angle(360) - results[s]["front-left"]["backsight"]["angle"]
+        )
 
 for s in range(n):
     print(names[s])
