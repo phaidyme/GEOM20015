@@ -26,12 +26,13 @@ jobs:
     - name: Run Python script and save stdout
       run: |
         python src/main.py > output/output.txt
-        cat output/output.txt # This step is optional, it prints the content of output.txt to the workflow log
+        cat output/ output.txt # This step is optional, it prints the content of output.txt to the workflow log
 
     - name: Upload result
       uses: actions/upload-artifact@v4
       with:
         name: script-output
         path: |
-          output.txt
-          output.png
+          output/output.txt
+          output/opaque.png
+          output/transparent.png
