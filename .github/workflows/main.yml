@@ -1,0 +1,37 @@
+name: Run Python Script
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v3
+      with:
+        python-version: '3.12.5'
+
+    - name: Install dependencies
+      run: |
+        pip install -r requirements.txt
+
+    - name: Run Python script and save stdout
+      run: |
+        python script.py > output.txt
+        cat output.txt # This step is optional, it prints the content of output.txt to the workflow log
+
+    - name: Upload result
+      uses: actions/upload-artifact@v4
+      with:
+        name: script-output
+        path: |
+          output.txt
+          output.png

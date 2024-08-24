@@ -44,18 +44,19 @@ class Angle:
         sec_2 *= sign
         # finalise
         self.degrees = deg
-        assert isinstance(self.degrees, int) or self.degrees.is_integer()
+
+        assert self.degrees % 1 == 0
         self.degrees = int(self.degrees)
 
         self.minutes = mnt + mnt_2
-        assert isinstance(self.minutes, int) or self.minutes.is_integer()
+        assert self.minutes % 1 == 0
         self.minutes = int(self.minutes)
 
         self.secondsies = sec + sec_2 + seconds
         self.seconds = int(round(self.secondsies))
 
     def __repr__(self):
-        return f"{self.degrees}° {self.minutes}' {self.seconds}\""
+        return f"{self.degrees} {self.minutes}' {self.seconds}\" ({self.secondsies})"
 
     def __add__(self, other):
         return Angle(
@@ -63,6 +64,12 @@ class Angle:
             self.minutes + other.minutes,
             self.seconds + other.seconds,
         )
+
+    def __radd__(self, other):
+        return Angle(other) + self
+
+    def __rsub__(self, other):
+        return Angle(other) - self
 
     def __sub__(self, other):
         return Angle(
@@ -75,7 +82,7 @@ class Angle:
         return Angle(
             self.degrees / other,
             self.minutes / other,
-            self.seconds / other,
+            self.secondsies / other,
         )
 
     def __lt__(self, other):
