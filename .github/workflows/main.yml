@@ -25,8 +25,8 @@ jobs:
 
     - name: Run Python script and save stdout
       run: |
-        python script.py > output.txt
-        cat output.txt # This step is optional, it prints the content of output.txt to the workflow log
+        python src/main.py > output/output.txt
+        cat output/output.txt # This step is optional, it prints the content of output.txt to the workflow log
 
     - name: Upload result
       uses: actions/upload-artifact@v4

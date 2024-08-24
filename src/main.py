@@ -293,6 +293,6 @@ for i in range(n + 1):
     pyplot.annotate(f"CP{points[i%n]}", (x[i], y[i]))
 pyplot.gca().set_aspect("equal")
 # show and savefig don't work at the same time
-# pyplot.show()
-pyplot.savefig("transparent.png", transparent=True)
+pyplot.savefig("output/opaque.png")
+pyplot.savefig("output/transparent.png", transparent=True)
 pyplot.close("all")
