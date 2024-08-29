@@ -56,7 +56,7 @@ class Angle:
         self.seconds = int(round(self.secondsies))
 
     def __repr__(self):
-        return f"{self.degrees} {self.minutes}' {self.seconds}\" ({self.secondsies})"
+        return f"\\ang{{{self.degrees};{self.minutes};{self.seconds}}}"
 
     def __add__(self, other):
         return Angle(

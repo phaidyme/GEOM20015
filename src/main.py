@@ -136,10 +136,16 @@ print(
 chosen_angles_for_adjustment_remainder = random.sample(
     range(n), abs(adjustment_remainder)
 )
+chosen_angles_for_adjustment_remainder = [0, 1, 4]
 for i in chosen_angles_for_adjustment_remainder:
-    results[i]["angle"].seconds += 1 if adjustment_remainder > 0 else -1
+    results[i]["angle"].secondsies += 1 if adjustment_remainder > 0 else -1
 for s in range(n):
-    results[s]["angle"].seconds += adjustment_main
+    results[s]["angle"].secondsies += adjustment_main
+    results[s]["angle"] = Angle(
+        results[s]["angle"].degrees,
+        results[s]["angle"].minutes,
+        results[s]["angle"].secondsies,
+    )
     print(names[s], "->", results[s]["angle"])
 print(misclosure(results))
 assert misclosure(results) == Angle(0) and misclosure(results).secondsies == 0
@@ -262,23 +268,27 @@ for i in range(n):
     src = points[i]
     dst = points[(i + 1) % n]
     print(f"\nfrom CP{src} to CP{dst}:")
+
     print("\tadjustment ration = side length / perimeter")
     print(f"\t                  = {distances[i]} / {sum(distances)}")
-    print(f"\t                  = {distances[i] / sum(distances)}")
-    print(f"\tEasting -= {delta_E} x {distances[i] / sum(distances)}")
-    print(f"\t        -= {delta_E * distances[i] / sum(distances)}")
-    print(
-        f"\t{eastings[i]} -> {eastings[i] - (delta_E * distances[i] / sum(distances))}"
-    )
-    print(f"\tNorthing -= {delta_N} x {distances[i] / sum(distances)}")
-    print(f"\t         -= {delta_N * distances[i] / sum(distances)}")
-    print(
-        f"\t{northings[i]} -> {northings[i] - (delta_N * distances[i] / sum(distances))}"
-    )
+    ration = distances[i] / sum(distances)
+    print(f"\t                  = {ration}")
 
-    eastings[i] -= delta_E * distances[i] / sum(distances)
-    northings[i] -= delta_N * distances[i] / sum(distances)
+    print(f"\tEasting -= {delta_E} x {ration}")
+    delta_e = delta_E * ration
+    print(f"\t        -= {delta_e}")
+    print(f"\t{eastings[i]} -> {eastings[i] - delta_e}")
+
+    print(f"\tNorthing -= {delta_N} x {ration}")
+    delta_n = delta_N * ration
+    print(f"\t         -= {delta_n}")
+    print(f"\t{northings[i]} -> {northings[i] - delta_n}")
+
+    eastings[i] -= delta_e
+    northings[i] -= delta_n
 print()
+print("ΔE after adjustment:", sum(eastings))
+print("ΔN after adjustment:", sum(northings))
 
 ################################################################### coordinates
 print("_" * 60, "coordinates")
@@ -292,7 +302,6 @@ for i in range(n + 1):
     print(f"CP{points[i%n]}", "\t", round(x[i], 4), "\t", round(y[i], 4))
     pyplot.annotate(f"CP{points[i%n]}", (x[i], y[i]))
 pyplot.gca().set_aspect("equal")
-# show and savefig don't work at the same time
 pyplot.savefig("output/opaque.png")
 pyplot.savefig("output/transparent.png", transparent=True)
 pyplot.close("all")

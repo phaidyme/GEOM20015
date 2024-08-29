@@ -1,0 +1,334 @@
+____________________________________________________________ raw results
+['4', '1', '2']
+front-left:
+  backsight:
+    angle: \ang{0;0;0}
+    distance: Decimal('96.8235')
+  foresight:
+    angle: \ang{142;4;14}
+    distance: Decimal('23.2661')
+front-right:
+  backsight:
+    angle: \ang{179;59;48}
+    distance: Decimal('96.8233')
+  foresight:
+    angle: \ang{322;4;13}
+    distance: Decimal('23.2662')
+
+['1', '2', '3']
+front-left:
+  backsight:
+    angle: \ang{0;0;1}
+    distance: Decimal('23.2685')
+  foresight:
+    angle: \ang{342;25;50}
+    distance: Decimal('23.7688')
+front-right:
+  backsight:
+    angle: \ang{179;59;46}
+    distance: Decimal('23.2684')
+  foresight:
+    angle: \ang{162;25;49}
+    distance: Decimal('23.7689')
+
+['2', '3', '6']
+front-left:
+  backsight:
+    angle: \ang{0;0;0}
+    distance: Decimal('23.7609')
+  foresight:
+    angle: \ang{206;39;12}
+    distance: Decimal('58.1806')
+front-right:
+  backsight:
+    angle: \ang{180;0;8}
+    distance: Decimal('23.7607')
+  foresight:
+    angle: \ang{26;39;6}
+    distance: Decimal('58.1804')
+
+['3', '6', '5']
+front-left:
+  backsight:
+    angle: \ang{0;0;3}
+    distance: Decimal('58.1855')
+  foresight:
+    angle: \ang{251;46;4}
+    distance: Decimal('26.6075')
+front-right:
+  backsight:
+    angle: \ang{180;0;3}
+    distance: Decimal('58.1857')
+  foresight:
+    angle: \ang{71;46;9}
+    distance: Decimal('26.6079')
+
+['6', '5', '4']
+front-left:
+  backsight:
+    angle: \ang{0;0;3}
+    distance: Decimal('26.6126')
+  foresight:
+    angle: \ang{163;5;30}
+    distance: Decimal('34.7903')
+front-right:
+  backsight:
+    angle: \ang{180;0;5}
+    distance: Decimal('26.6126')
+  foresight:
+    angle: \ang{343;5;36}
+    distance: Decimal('34.7901')
+
+['5', '4', '6']
+front-left:
+  backsight:
+    angle: \ang{0;0;13}
+    distance: Decimal('34.7763')
+  foresight:
+    angle: \ang{333;59;35}
+    distance: Decimal('96.8077')
+front-right:
+  backsight:
+    angle: \ang{180;0;0}
+    distance: Decimal('34.7757')
+  foresight:
+    angle: \ang{153;59;44}
+    distance: Decimal('96.8075')
+
+____________________________________________________________ reduced results
+fl: \ang{142;4;14} - \ang{0;0;0} = \ang{142;4;14}
+fr: \ang{322;4;13} - \ang{179;59;48} = \ang{142;4;25}
+avg \ang{142;4;20}
+fl: \ang{342;25;50} - \ang{0;0;1} = \ang{342;25;49}
+fr: \ang{522;25;49} - \ang{179;59;46} = \ang{342;26;3}
+avg \ang{342;25;56}
+fl: \ang{206;39;12} - \ang{0;0;0} = \ang{206;39;12}
+fr: \ang{386;39;6} - \ang{180;0;8} = \ang{206;38;58}
+avg \ang{206;39;5}
+fl: \ang{251;46;4} - \ang{0;0;3} = \ang{251;46;1}
+fr: \ang{431;46;9} - \ang{180;0;3} = \ang{251;46;6}
+avg \ang{251;46;4}
+fl: \ang{163;5;30} - \ang{0;0;3} = \ang{163;5;27}
+fr: \ang{343;5;36} - \ang{180;0;5} = \ang{163;5;31}
+avg \ang{163;5;29}
+fl: \ang{333;59;35} - \ang{0;0;13} = \ang{333;59;22}
+fr: \ang{513;59;44} - \ang{180;0;0} = \ang{333;59;44}
+avg \ang{333;59;33}
+['4', '1', '2']
+angle: \ang{217;55;40}
+distance_backsight: Decimal('96.8234')
+distance_foresight: Decimal('23.2662')
+
+['1', '2', '3']
+angle: \ang{17;34;4}
+distance_backsight: Decimal('23.2684')
+distance_foresight: Decimal('23.7688')
+
+['2', '3', '6']
+angle: \ang{153;20;55}
+distance_backsight: Decimal('23.7608')
+distance_foresight: Decimal('58.1805')
+
+['3', '6', '5']
+angle: \ang{108;13;56}
+distance_backsight: Decimal('58.1856')
+distance_foresight: Decimal('26.6077')
+
+['6', '5', '4']
+angle: \ang{196;54;31}
+distance_backsight: Decimal('26.6126')
+distance_foresight: Decimal('34.7902')
+
+['5', '4', '6']
+angle: \ang{26;0;27}
+distance_backsight: Decimal('34.7760')
+distance_foresight: Decimal('96.8076')
+
+________________________________________ angular misclosure and adjustment
+ideal internal angle sum is (n-2)pi radians = 720 degrees
+measured internal angle sum is \ang{719;59;33}
+acceptable angular misclosure is 12 root n = 29.393876913398135"
+measured angular misclosure is \ang{0;0;27}
+
+adjustment per angle is 4" with an extra second for 3 random angles
+	double checking: 6x (4) + 3") = 24 + 3"
+['4', '1', '2'] -> \ang{217;55;45}
+['1', '2', '3'] -> \ang{17;34;9}
+['2', '3', '6'] -> \ang{153;20;59}
+['3', '6', '5'] -> \ang{108;14;0}
+['6', '5', '4'] -> \ang{196;54;36}
+['5', '4', '6'] -> \ang{26;0;31}
+\ang{0;0;0}
+
+____________________________________________________________ bearings
+provided control point coordinates: (5008 is CP4 and 5009 is CP1)
+'5005':
+- Decimal('5814955.281000')
+- Decimal('320590.269000')
+- Decimal('45.829500')
+'5006':
+- Decimal('5815029.880000')
+- Decimal('320616.255000')
+- Decimal('46.698000')
+'5007':
+- Decimal('5815103.545000')
+- Decimal('320577.947000')
+- Decimal('46.409500')
+'5008':
+- Decimal('5815107.456000')
+- Decimal('320497.890000')
+- Decimal('46.394500')
+'5009':
+- Decimal('5815026.926000')
+- Decimal('320444.135000')
+- Decimal('46.278000')
+'5010':
+- Decimal('5814975.623000')
+- Decimal('320505.804000')
+- Decimal('45.081000')
+
+bearing from CP4 to CP1 is:
+                  320444.135000 - 320497.890000
+  180 + arctan ( ------------------------- )
+                 5815026.926000 - 5815107.456000
+= 180 + arctan(-53.755000 / -80.530000)
+= \ang{213;43;25}
+
+subsequent bearings are previous bearing + 180 - internal angle
+- \ang{175;47;40}
+- \ang{338;13;31}
+- \ang{4;52;32}
+- \ang{76;38;32}
+- \ang{59;43;56}
+
+____________________________________________________________ traversals
+averaged distances between pairs of points:
+- Decimal('23.2673')
+- Decimal('23.7648')
+- Decimal('58.1830')
+- Decimal('26.6102')
+- Decimal('34.7831')
+- Decimal('96.8155')
+
+^ should be nan according to provided coordinates
+
+CP1 is at (nan,nan)
+
+Between subsequent CPs, 
+ Easting = distance x sin(bearing)
+Northing = distance x cos(bearing)
+
+from CP1 to CP2:
+	 bearing = \ang{175;47;40}
+	distance = 23.2673m
+	-> CP2 is 1.7063m East and 23.2046m South of CP1
+from CP2 to CP3:
+	 bearing = \ang{338;13;31}
+	distance = 23.7648m
+	-> CP3 is 8.8157m West and 22.0692m North of CP2
+from CP3 to CP6:
+	 bearing = \ang{4;52;32}
+	distance = 58.1830m
+	-> CP6 is 4.9451m East and 57.9725m North of CP3
+from CP6 to CP5:
+	 bearing = \ang{76;38;32}
+	distance = 26.6102m
+	-> CP5 is 25.8903m East and 6.1478m North of CP6
+from CP5 to CP4:
+	 bearing = \ang{59;43;56}
+	distance = 34.7831m
+	-> CP4 is 30.0414m East and 17.5321m North of CP5
+from CP4 to CP1:
+	 bearing = \ang{213;43;25}
+	distance = 96.8155m
+	-> CP1 is 53.7507m West and 80.5239m South of CP4
+________________________________________ linear misclosure and adjustment
+
+ΔE = 0.01664650122620734516154517
+ΔN = -0.00699238371346709873255243
+Linear misclosure = sqrt( ΔE^2 + ΔN^2 )
+                  = sqrt(0.01664650122620734516154517^2 + -0.00699238371346709873255243^2)
+                  = sqrt(0.0002771060030741226460477766729 + 0.00004889342999635993350894329013)
+                  = sqrt(0.0003259994330704825795567199630)
+                  = 0.01805545438560000881533795791256125085055828094482421875m
+accuracy = perimiter / linear misclosure
+         = 263.4239 / 0.01805545438560000881533795791256125085055828094482421875
+         = 14589.71313455792840773822779
+minimum acceptable accuracy is 8000
+
+adjusted northings and eastings are:
+
+from CP1 to CP2:
+	adjustment ration = side length / perimeter
+	                  = 23.2673 / 263.4239
+	                  = 0.08832645784987618815149270814
+	Easting -= 0.01664650122620734516154517 x 0.08832645784987618815149270814
+	        -= 0.001470326488904515353683625267
+	1.706305098382754051608567458 -> 1.704834771893849536254883833
+	Northing -= -0.00699238371346709873255243 x 0.08832645784987618815149270814
+	         -= -0.0006176124853377124336095439878
+	-23.20464979699614164656562565 -> -23.20403218451080393413201611
+
+from CP2 to CP3:
+	adjustment ration = side length / perimeter
+	                  = 23.7648 / 263.4239
+	                  = 0.09021504882434737318823386944
+	Easting -= 0.01664650122620734516154517 x 0.09021504882434737318823386944
+	        -= 0.001501764920876854060300104341
+	-8.815746709557095111708946433 -> -8.817248474477971965769246537
+	Northing -= -0.00699238371346709873255243 x 0.09021504882434737318823386944
+	         -= -0.0006308182381090057050987476402
+	22.06917146140591289498189553 -> 22.06980227964402190068699428
+
+from CP3 to CP6:
+	adjustment ration = side length / perimeter
+	                  = 58.1830 / 263.4239
+	                  = 0.2208721380254411236034391716
+	Easting -= 0.01664650122620734516154517 x 0.2208721380254411236034391716
+	        -= 0.003676748316475543652395179883
+	4.945080143257807150730664958 -> 4.941403394941331607078269778
+	Northing -= -0.00699238371346709873255243 x 0.2208721380254411236034391716
+	         -= -0.001544422740687751588052936862
+	57.97247339364396161165426946 -> 57.97401781638464936324232240
+
+from CP6 to CP5:
+	adjustment ration = side length / perimeter
+	                  = 26.6102 / 263.4239
+	                  = 0.1010166503494937247531450259
+	Easting -= 0.01664650122620734516154517 x 0.1010166503494937247531450259
+	        -= 0.001681573793910205931268002952
+	25.89029810661231173036789244 -> 25.88861653281840152443662444
+	Northing -= -0.00699238371346709873255243 x 0.1010166503494937247531450259
+	         -= -0.0007063471806928004281045367288
+	6.147780737042189160751481936 -> 6.148487084222881961179586473
+
+from CP5 to CP4:
+	adjustment ration = side length / perimeter
+	                  = 34.7831 / 263.4239
+	                  = 0.1320423089932234698522039952
+	Easting -= 0.01664650122620734516154517 x 0.1320423089932234698522039952
+	        -= 0.002198042458566943650475685018
+	30.04143832076559548958094581 -> 30.03924027830702854593047012
+	Northing -= -0.00699238371346709873255243 x 0.1320423089932234698522039952
+	         -= -0.0009232904908928060131379287449
+	17.53214274495950792301934840 -> 17.53306603545040072903248633
+
+from CP4 to CP1:
+	adjustment ration = side length / perimeter
+	                  = 96.8155 / 263.4239
+	                  = 0.3675273959576181204514852297
+	Easting -= 0.01664650122620734516154517 x 0.3675273959576181204514852297
+	        -= 0.006118045247473282513422572538
+	-53.75072845823516596541757906 -> -53.75684650348263924793100163
+	Northing -= -0.00699238371346709873255243 x 0.3675273959576181204514852297
+	         -= -0.002569892577747022564548736036
+	-80.52391092376889704257392211 -> -80.52134103119115002000937337
+
+____________________________________________________________ coordinates
+CP1 	 320444.1350 	 5815026.9260
+CP2 	 320445.8398 	 5815003.7220
+CP3 	 320437.0226 	 5815025.7918
+CP6 	 320441.9640 	 5815083.7658
+CP5 	 320467.8526 	 5815089.9143
+CP4 	 320497.8918 	 5815107.4473
+CP1 	 320444.1350 	 5815026.9260

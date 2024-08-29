@@ -25,6 +25,9 @@ def reduce_angles(fl_bs, fl_fs, fr_bs, fr_fs):
         fr_fs += Angle(360)
     fl = fl_fs - fl_bs
     fr = fr_fs - fr_bs
+    print(f"fl: {fl_fs} - {fl_bs} = {fl}")
+    print(f"fr: {fr_fs} - {fr_bs} = {fr}")
+    print("avg", avg(fl, fr))
     return Angle(360) - avg(fl, fr)
 
 
